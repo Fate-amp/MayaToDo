@@ -1,30 +1,19 @@
-# React + TypeScript + Vite
+# Maya's ToDo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Maya's ToDo**, a personal project built using **React**, **Vite**, **TypeScript**, **Zustand**, **Material UI**, and **react-router-dom**.
 
-Currently, two official plugins are available:
+## Features
+- **Task Management**: Easily add and edit tasks, with the state managed by **Zustand**.
+- **LocalStorage**: Tasks are stored locally, allowing for persistence between sessions.
+- **Sorting and Searching**: Sort tasks by various criteria and search through them for quick access.
+- **Progress Monitoring**: Track the completion progress of tasks with a convenient progress indicator.
+- **Dark Mode**: Toggle between light and dark mode for improved user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Technologies Used
+- **React**: A popular JavaScript library for building user interfaces.
+- **Vite**: A fast build tool that provides an instant development server and optimized production builds.
+- **TypeScript**: A typed superset of JavaScript that enhances code quality and developer productivity.
+- **Zustand**: A simple and flexible state management solution for React applications.
+- **Material UI**: A set of React components that implement Google's Material Design for consistent and beautiful UIs.
+- **react-router-dom**: A library for declarative routing in React applications.
+- **react-hook-form**: A library for managing form state and validation in React applications.
