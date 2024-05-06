@@ -1,0 +1,25 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(92, 86, 86);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.linkHover{
+    cursor: pointer;
+    color: inherit;
+}
+.linkHover:hover{
+color: rgb(205, 50, 50);
+}
+
+.custom-calendar .react-calendar__tile {
+    width: 25px;
+    height: 30px;
+  }
+
+  .custom-dialog .MuiDialog-paper{
+    height: 500px;
+  }
